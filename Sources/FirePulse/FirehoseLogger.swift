@@ -21,9 +21,9 @@ final class FirehoseLogger: @unchecked Sendable {
     func logEvent<T: Encodable & Sendable>(_ event: T) async {
         do {
             try await client.putRecord(event)
-            print(Constants.LogMessages.saraEventSuccess)
+            print(Constants.LogMessages.eventSuccess)
         } catch {
-            print(Constants.LogMessages.saraEventFailure)
+            print(Constants.LogMessages.eventFailure)
         }
     }
 }

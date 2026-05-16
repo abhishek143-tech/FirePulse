@@ -83,10 +83,10 @@ struct Constants {
     }
 
     struct LogMessages {
-        static let loginEventSuccess = "### Login Event sent to firehose successfully."
-        static let loginEventFailure = "### Login Error sending event.."
-        static let saraEventSuccess = "### SARA Event sent to firehose successfully."
-        static let saraEventFailure = "### SARA Error sending event.."
+        static let loginEventSuccess = "Login Event sent to firehose successfully."
+        static let loginEventFailure = "Login Error sending event.."
+        static let eventSuccess = "SARA Event sent to firehose successfully."
+        static let eventFailure = "SARA Error sending event.."
         static let awsCredentialsFailurePrefix = "❌ Failed to fetch AWS credentials: "
     }
 }
