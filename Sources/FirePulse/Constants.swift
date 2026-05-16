@@ -76,17 +76,11 @@ struct Constants {
         static let code = 0
     }
 
-    struct Event {
-        static let anonymousUserId = "anonymous"
-        static let platform = "Apple TV"
-        static let emptyPlan = ""
-    }
-
     struct LogMessages {
-        static let loginEventSuccess = "Login Event sent to firehose successfully."
-        static let loginEventFailure = "Login Error sending event.."
-        static let eventSuccess = "SARA Event sent to firehose successfully."
-        static let eventFailure = "SARA Error sending event.."
-        static let awsCredentialsFailurePrefix = "❌ Failed to fetch AWS credentials: "
+        static let loginEventSuccess = "Login event sent to Firehose successfully."
+        static let loginEventFailure = "Failed to send login event to Firehose."
+        static let eventSuccess = "FirePulse event sent to Firehose successfully."
+        static let eventFailure = "FirePulse failed to send event to Firehose."
+        static let awsCredentialsFailurePrefix = "Failed to fetch AWS credentials: "
     }
 }
