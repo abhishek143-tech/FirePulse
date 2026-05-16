@@ -1,0 +1,25 @@
+macOS
+.DS_Store
+
+Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+Playgrounds
+timeline.xctimeline
+playground.xcworkspace/
+
+Build artifacts
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+Logs
+*.log
