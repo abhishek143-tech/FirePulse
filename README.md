@@ -15,7 +15,7 @@ The library uses Amazon Cognito Identity to request temporary AWS credentials, s
 
 ## Requirements
 
-- Swift 6.1 or later
+- Swift 5.7 or later
 - iOS 13.0+
 - macOS 10.15+
 - tvOS 13.0+
